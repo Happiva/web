@@ -1,0 +1,26 @@
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+
+a {
+  color:black;
+}
+
+#grid ol{
+  padding-left:33px;
+}
+
+#grid #article{
+  padding-left:25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+}
