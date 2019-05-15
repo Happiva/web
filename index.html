@@ -3,6 +3,8 @@
 <head>
   <title>Coding Box</title>
   <meta charset="utf-8">
+  <script src="colors.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <style>
     h1 {
       border:5px solid black;
@@ -11,19 +13,19 @@
       width:100px;
     }
     .saw {
-      color:brown;
+      color:blue;
     }
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1><a href="index.html">Index</a></h1>
+  <h1><a href="index.html" class="saw">Index</a></h1>
   <div id="grid">
     <ol>
-      <li><a href="1.html">초밥</a></li>
-      <li><a href="2.html" class="saw">치킨</a></li>
-      <li><a href="3.html" class="saw">커피</a></li>
+      <li><a href="1.html" class="saw">Project</a></li>
+      <li><a href="2.html" class="saw">Photo</a></li>
+      <li><a href="3.html" class="saw">Link</a></li>
     </ol>
     <div id="article">
       <h2>About this Site</h2>
@@ -37,6 +39,9 @@
       <p>
         <input type="button" value="Login" onclick="alert('삑 구현 안된 기능입니다')">
       </p>
+        <input id="night_day" type = "button" value = "night" onclick="
+          nightDayHandler(this);
+        ">
       <script>
       </script>
     </div>

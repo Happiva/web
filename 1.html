@@ -1,17 +1,42 @@
 <!doctype html>
 <html>
 <head>
-  <title>초밥</title>
+  <script src = "colors.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    h1 {
+      border:5px solid black;
+      padding:20px;
+      margin:20px;
+      width:100px;
+    }
+    .saw {
+      color:blue;
+    }
+  </style>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1><a href="index.html">초밥</a></h1>
+  <h1><a href="index.html">Index</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw">Project</a></li>
+      <li><a href="2.html" class="saw">Photo</a></li>
+      <li><a href="3.html" class="saw">Link</a></li>
+    </ol>
 
-  <img src="sushi-354628_960_720.jpg" width="50%" height="50%">
-  <p> 초밥은 식초에 버무린 밥을 회·채소·달걀 등에 얹거나 채워서 만드는 일본 요리이다. 현대의 일본 초밥은 손으로 쥐어 만드는 니기리즈시, 밥 위에 여러 재료를 얹어 먹는 지라시즈시, 김으로 말아 만드는 마키즈시 등으로 나눌 수 있다.</p>
-  <p style = "margin-top:45px;">스시의 한자는 寿司(수사)이고, 뜻글자로는 물고기젓이라는 뜻인 지(鮨) 또는 생선젓이라는 뜻인 자(鮓)를 사용한다. 초밥의 기원이라고 할 수 있는, 생선과 곡물을 함께 삭혀 보관하는 방법은 농경문화, 더운 날씨와 관련이 깊어 동남아시아에서 민물고기 보존용으로 곡물을 곁들인 것이 시초라고 추정된다.</p>
-  <br><a href="https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8C%80%EB%AC%B8" target="_blank" title="위키백과">이 모든 지식들의 출처</a>
+  <div id="article">
+    <h2>Project List</h2>
+      <추가 예정>
+      <p>
+      <input id="night_day" type = "button" value = "night" onclick="
+        nightDayHandler(this);
+      ">
+    </p>
+    <script>
+    </script>
+  </div>
 </body>
 </html>
